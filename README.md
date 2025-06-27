@@ -76,18 +76,3 @@
 
 Аудитория сосредоточена в возрасте 18–38 лет; именно эта группа определяет основные паттерны спроса.
 
-## Запуск проекта
-
-# 1. Клонируйте репозиторий
-git clone https://github.com/<username>/kicksharing-eda.git
-cd kicksharing-eda
-
-# 2. Создайте виртуальное окружение
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-
-# 3. Установите зависимости
-pip install -r requirements.txt
-
-# 4. Откройте Jupyter-ноутбук
-jupyter notebook EDA_scooter.ipynb
